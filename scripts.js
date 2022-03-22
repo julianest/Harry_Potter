@@ -32,7 +32,7 @@ const personajes = [
 const temp = document.getElementById("container2")
         temp.innerHTML =
         `<button id="btn1" class="btn" >Comenzar</button>
-                <img id="escudo" src="/Harry_Potter/img/esc.png" alt="escudo">`
+                <img id="escudo" src="./img/esc.png" alt="escudo">`
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
