@@ -1,0 +1,119 @@
+
+body{
+    height: 100vh;
+    width: 100vh;
+}
+.cont1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    
+}
+.cont2{
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    margin-left: 21%;
+    padding-top: 10%;
+    
+    text-align: center;
+    position: relative;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.cont3{
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    margin-left: 21%;
+    padding-top: 10%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;  
+}
+
+
+.cont3 .casaEscudo{
+    
+    width: 300px;
+    height: 30%;
+}
+.cont3 .cara{
+
+    width: 180px;
+    height: 180px;
+}
+
+.cont3 .text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    
+}
+
+.btn{
+    
+    height:3em;
+    width: 40%;
+    border: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#btn2{
+    visibility: hidden;
+    height:3em;
+    width: 40%;
+    border: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+#escudo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 650px;
+    height: 400px;
+    
+}
+
+
+
+.box{
+    box-sizing: border-box;
+    text-align: center;
+    width: 290px;
+    height: 240px;
+}
+#p1{
+    background-color: red;
+}
+#p2{
+    background-color: green;
+}
+#p3{
+    background-color: yellow;
+}
+#p4{
+    background-color: blue;
+}
+
